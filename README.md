@@ -1,5 +1,5 @@
 [kube-linter]: https://github.com/stackrox/kube-linter
-[test-badge]: https://github.com/tvcsantos/kube-linter-reporter-action/actions/workflows/test.yml/badge.svg
+[test-badge]: https://github.com/mercedesbenzio/kube-linter-reporter-action/actions/workflows/test.yml/badge.svg
 
 # KubeLinter Reporter Action
 
@@ -73,7 +73,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Do KubeLinter report
-        uses: tvcsantos/kube-linter-reporter-action@v2
+        uses: mercedesbenzio/kube-linter-reporter-action@v2
         with:
           file: /path/to/kube-linter/results/file.json
 ```
